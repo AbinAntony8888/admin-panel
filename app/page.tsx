@@ -8,8 +8,8 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
 import { Separator } from "@/components/ui/separator"
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
-import { SidebarInset } from "./layout"
+import {  SidebarTrigger } from "@/components/ui/sidebar"
+import { SidebarInset, SidebarProvider } from "./layout"
 
 export default function Page() {
   return (
