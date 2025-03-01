@@ -86,3 +86,11 @@ body {
     @apply bg-background text-foreground;
   }
 }
+.abin{
+  color:red;
+  background: yellowgreen;
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border: 2px solid red;
+}

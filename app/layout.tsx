@@ -34,6 +34,7 @@ import {
 } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/app-sidebar";
 import About from "@/components/topbar";
+import Abin from "./abin/page";
 
 const SIDEBAR_COOKIE_NAME = "sidebar:state";
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7;
@@ -91,6 +92,7 @@ export default function RootLayout({
         <SidebarProvider>
           
           <AppSidebar/>
+          
         {children}
         </SidebarProvider>
       </body>
