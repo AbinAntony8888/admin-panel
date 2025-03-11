@@ -20,14 +20,24 @@ import Abin from "./abin/page";
 export default function Page() {
   const router = useRouter();
   return (
-    <div className="">
-      home page.....
-      <button
-        className="border-2 bg-green-600 p-2"
+    <div className="mt-4 ml-4">
+      <div className="flex flex-row gap-3">
+      <h1 className="ml-4">home page.....</h1>
+     <div className="flex items-end justify-end">
+     <button
+        className="border-2 bg-blue-600 px-4 py-1 text-white font-bold rounded-xl"
         onClick={() => router.push("/abin")}
       >
         LOGIN
       </button>
+      <button
+        className="border-2 bg-blue-600 px-4 py-1 ml-3 text-white font-bold rounded-xl"
+        onClick={() => router.push("/news")}
+      >
+        VIEW NEWS
+      </button>
+     </div>
+      </div>
       <Sample />
       {/* <Abin/> */}
       {/* <Topbar/> */}

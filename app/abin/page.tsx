@@ -79,6 +79,7 @@ const AnimatedLogin = () => {
         <button className="w-full p-2 bg-green-600 hover:bg-green-700 rounded-md text-white my-2">
           Login
         </button>
+        <h1 className="text-green-500 text-2xl text-center">or</h1>
         <button
           className="w-full p-2 bg-red-600 hover:bg-red-700 rounded-md text-white my-2"
           onClick={() => router.push("/news")}
